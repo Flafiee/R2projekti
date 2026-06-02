@@ -34,7 +34,7 @@ CREATE TABLE `kirjastot` (
 
 --
 -- Dumping data for table `kirjastot`
---
+--  
 
 INSERT INTO `kirjastot` (`KirjastoID`, `Toimipaikka`) VALUES
 (1, 'Turun Pääkirjasto'),
