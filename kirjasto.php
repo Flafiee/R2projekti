@@ -1,6 +1,6 @@
 <?php
 include 'yhteysr2.php';
-
+//tiedostojen pitää olla htdocs kansiossa että näkyy oikein kun on roottiin tehty, ei löydetty fiksiä siihen et kaikki käyttää tunnuksia
 $viesti = '';
 
 $kirja_id = $_POST['kirja_id'] ?? ''; //?? poistaa virheilmoituksen
