@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2026 at 09:35 AM
+-- Generation Time: Jun 02, 2026 at 09:42 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -29,19 +29,20 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `kirjat` (
   `KirjaID` int(11) NOT NULL,
-  `KirjaName` varchar(70) NOT NULL
+  `KirjaName` varchar(70) NOT NULL,
+  `KirjaMäärä` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `kirjat`
 --
 
-INSERT INTO `kirjat` (`KirjaID`, `KirjaName`) VALUES
-(1, 'Don Quixote'),
-(2, 'Alice\'s Adventures in Wonderland'),
-(3, 'The Adventures of Huckleberry Finn'),
-(4, 'The Adventures of Tom Sawyer'),
-(5, 'Treasure Island');
+INSERT INTO `kirjat` (`KirjaID`, `KirjaName`, `KirjaMäärä`) VALUES
+(1, 'Don Quixote', 4),
+(2, 'Alice\'s Adventures in Wonderland', 3),
+(3, 'The Adventures of Huckleberry Finn', 3),
+(4, 'The Adventures of Tom Sawyer', 2),
+(5, 'Treasure Island', 4);
 
 --
 -- Indexes for dumped tables
