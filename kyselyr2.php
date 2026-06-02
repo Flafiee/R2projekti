@@ -3,7 +3,7 @@
 @ini_set("display_errors", 1);
 @ini_set("error_reporting", E_ALL);
 // Otetaan yhteys tietokantapalvelimeen
-include("yhteys.php");
+include("yhteysr2.php");
 // Muista: ei lainausmerkkejä lainausmerkkiparin sisälle: EI " " " "
 // vaan: " ' ' "
 $sql_lause = "SELECT Country, COUNT(CustomerID) FROM customers GROUP BY Country;";
