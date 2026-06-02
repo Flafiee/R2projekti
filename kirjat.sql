@@ -39,7 +39,7 @@ CREATE TABLE `kirjat` (
 
 INSERT INTO `kirjat` (`KirjaID`, `KirjaName`, `KirjaMäärä`) VALUES
 (1, 'Don Quixote', 4),
-(2, 'Alice\'s Adventures in Wonderland', 3),
+(2, 'Alices Adventures in Wonderland', 3),
 (3, 'The Adventures of Huckleberry Finn', 3),
 (4, 'The Adventures of Tom Sawyer', 2),
 (5, 'Treasure Island', 4);
